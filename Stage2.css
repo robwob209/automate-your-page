@@ -1,0 +1,44 @@
+/* Text colors hex#294860 = rgb(41,72,96). #DFEAF1 = rgb(223,234,241)*/
+h1 {
+    text-align: center;
+    color: rgb(41,72,96);
+}
+
+body {
+    font-family: Calibri;
+}
+
+/* the border-radius attribute makes the corners rounded and the margin clears out space for the stuff inside the lesson divs. 
+ padding: 10px; (*Go back and play some more with .htc file and see if I can make the corners round in my old IE8) */
+
+.lesson {
+    background-color: rgb(41,72,96);
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+}
+
+/* margins push other elements away */ 
+h2 {
+    margin: 10px;
+}
+/* this is the light blue background for the main body */
+.concept {
+    background-color: rgb(223,234,241);
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+    color: black;
+}
+
+.concept-title {
+    font-size: 20px;
+    margin: 8px;
+    text-align: center;
+    color: rgb(41,72,96);
+}
+
+.concept-description {
+    font-weight: lighter;
+    margin: 6px;
+}
